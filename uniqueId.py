@@ -1,7 +1,8 @@
 import math
 
+# creating unique id for object in every frame.
 
-class Tracker:
+class AssignUniqueId:
     def __init__(self):
         # Store the center positions of the objects
         self.center_points = {}
